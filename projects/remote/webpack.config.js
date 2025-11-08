@@ -27,7 +27,7 @@ module.exports = withModuleFederationPlugin({
 		'@angular/forms': sharedSingletonStrictLibrary(angularVersion),
 		// DEVEX START
 		'devextreme-angular/ui/button': sharedSingletonStrictLibrary(devexVersion),
-    'devextreme-angular/ui/text-box': sharedSingletonStrictLibrary(devexVersion),
+    	'devextreme-angular/ui/text-box': sharedSingletonStrictLibrary(devexVersion),
 		'devextreme/ui/text_box': sharedSingletonStrictLibrary(devexVersion),
 		'devextreme-angular/ui/data-grid': sharedSingletonStrictLibrary(devexVersion),
 		'devextreme/ui/data_grid': sharedSingletonStrictLibrary(devexVersion),
